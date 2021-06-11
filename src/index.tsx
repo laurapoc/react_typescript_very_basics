@@ -1,5 +1,7 @@
 import ReactDOM from "react-dom";
-import EventComponent from "./events/EventComponent";
+import UserSearch from "./refs/UserSearch";
+// import UserSearch from "./classes/UserSearch";
+// import EventComponent from "./events/EventComponent";
 // import UserSearch from "./state/UserSearch";
 // import GuestList from "./state/GuestList";
 
@@ -8,7 +10,9 @@ const App = () => {
     <div>
       {/* <GuestList /> */}
       {/* <UserSearch /> */}
-      <EventComponent />
+      {/* <EventComponent /> */}
+      {/* <UserSearch users={[]} /> */}
+      <UserSearch />
     </div>
   );
 };
